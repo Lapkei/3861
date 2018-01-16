@@ -25,9 +25,22 @@ function initBrandImageFocus(){
 		    modifier: 1,
 		    slideShadows : true,
 		},
+		navigation: {
+	      nextEl: '#brandImage-Focus .swiper-button-next',
+	      prevEl: '#brandImage-Focus .swiper-button-prev',
+	    },
 		on: {
+				init: function(){
+					var index = this.activeIndex;
+					$($("#brandImage-Focus .swiper-slide")[index]).addClass("swiper-no-opacity");
+					$($("#brandImage-Focus .swiper-slide")[index]).find(".blue-shadow").addClass("swiper-no-shadow")
+				},
 		        slideChangeTransitionEnd: function(){
-		          // alert(this.activeIndex);//切换结束时，告诉我现在是第几个slide
+		          	var index = this.activeIndex;
+					$("#brandImage-Focus .swiper-slide").removeClass("swiper-no-opacity");
+					$($("#brandImage-Focus .swiper-slide")[index]).addClass("swiper-no-opacity");
+					$("#brandImage-Focus .blue-shadow").removeClass("swiper-no-shadow")
+					$($("#brandImage-Focus .swiper-slide")[index]).find(".blue-shadow").addClass("swiper-no-shadow")
 		    },
 		}
     });

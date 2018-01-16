@@ -5,6 +5,7 @@
 }
 html,body{
 	width: 100%;
+	overflow-x: hidden;
 }
 .design-width-size{
 	width:1000px;
@@ -105,6 +106,7 @@ html,body{
 	width: 100%;
 	margin-top: 126px;
 	background-color: #f7f8f8;
+	padding-bottom: 44px;
 }
 .focus-block,.swiper-container,.swiper-wrapper,.swiper-slide,.swiper-slide img{
 	width: 100%;
@@ -304,15 +306,155 @@ html,body{
 /* **********************************实播栏目 模块样式 END*/
 
 /* *********************************** 品牌形象 模块样式*/
-.brand-image-pics{
+.brand-image-pics,.product-center-pics{
 	width: 100%;
 }
-.brand-image-pics img{
+.brand-image-pics img,.product-center-pics img{
 	width: 100%;
 }
 #brandImage-Focus .swiper-slide{
 	width: 286px;
+	opacity: 0.5;
+	transition-duration: 0.35s;
+}
+#brandImage-Focus .swiper-no-opacity{
+	opacity: 1;
+}
+.swiper-no-shadow{
+	opacity: 0;
+	transition-duration: 0.35s;
 }
 .swiper-slide img{
 	width: 100%;
+}
+
+/* **********************************品牌形象 模块样式 END*/
+
+/* ********************************产品中心 模块样式*/
+.product-center-content-block{
+	width: 235px;
+	height: 322px;
+	border: 4px solid #13afff;
+	float: left;
+	cursor: pointer;
+	position: relative;
+}
+.margin-right-20{
+	margin-right: 20px;
+}
+.product-center-pics{
+	margin-bottom: 40px;
+}
+.product-center-content-block img{
+	width: 100%;
+}
+.product-center-shadow-bottom{
+	text-align: center;
+	position: absolute;
+	color: #13afff;
+	bottom: 20px;
+	z-index: 500;
+}
+.product-center-shadow-bottom h2{
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0;
+}
+.product-center-shadow-bottom h3{
+	font-size: 14px;
+	margin: 0;
+}
+.product-center-shadow{
+	width: 100%;
+	height: 390px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.product-center-shadow .blue-shadow{
+	opacity: 0;
+}
+.product-center-content-block:hover{
+	border-color: #ff5791;
+	transition-duration: 0.35s;
+}
+.product-center-content-block:hover .product-center-shadow-bottom{
+	color: #ff5791;
+	transition-duration: 0.35s;
+}
+.product-center-content-block:hover .product-center-shadow .blue-shadow{
+	opacity: 0.4;
+}
+.product-center-content-block:hover .product-center-shadow-top{
+	opacity: 1;
+	
+}
+.product-center-shadow-top{
+	text-align: center;
+	opacity: 0;
+	position: absolute;
+	z-index: 500;
+	top: 60px;
+	color: #ff5791;
+	transition-duration: 0.5s;
+}
+.product-center-shadow-top h2{
+	font-size: 16px;
+}
+.product-center-shadow-top p{
+	font-size: 14px;
+	padding: 0 16px;
+}
+/*****************************产品中心 END  */
+
+/*******************************加盟合作*/
+.join-us{
+	margin-top: 140px;
+}
+.join-us img{
+	cursor: pointer;
+}
+/*******************************加盟合作 END*/
+
+/* *****************************尾部*/
+.footer{
+	width: 100%;
+	background-color: #e4e4e5;
+	padding-top: 24px;
+}
+.footer .footer-content{
+	width: 1000px;
+	margin: 0 auto;
+}
+.footer .top-block{
+	padding-bottom: 25px;
+	border-bottom: 2px solid #b9b9b9;
+}
+.footer .left-part{
+	float: left;
+}
+.footer .right-part{
+	float: right;
+}
+.footer .left-part ul li{
+	list-style: none;
+}
+.footer .left-part ul li a{
+	color: #0a006a;
+}
+.footer .left-part ul{
+	float: left;
+	margin-right: 30px;
+}
+.footer .left-part ul h2{
+	font-size: 16px;
+	color: #0a006a;
+	font-weight: bold;
+	margin: 0;
+}
+.footer .left-part ul h3{
+	font-size: 14px;
+	color: #4b43a0;
+	margin-top: 0;
+	font-weight:normal ;
 }
