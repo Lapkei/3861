@@ -303,3 +303,16 @@ html,body{
 
 /* **********************************实播栏目 模块样式 END*/
 
+/* *********************************** 品牌形象 模块样式*/
+.brand-image-pics{
+	width: 100%;
+}
+.brand-image-pics img{
+	width: 100%;
+}
+#brandImage-Focus .swiper-slide{
+	width: 286px;
+}
+.swiper-slide img{
+	width: 100%;
+}

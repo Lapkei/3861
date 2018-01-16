@@ -54,26 +54,23 @@
 
     <!-- Initialize Swiper -->
     <script>
+
     var swiper = new Swiper('.swiper-container', {
-        initialSlide :5,
-        effect: 'coverflow',
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPerView: 'auto',        
-        coverflow: {
-            rotate: 10,
-            stretch: 0,
-            depth: 300,
-            modifier: 1,
-            slideShadows : true
-        },
-        on: {
-            init: function(){
-              //Swiper初始化了
-              alert('当前的slide序号是'+this.activeIndex);
-            },
+      effect: 'coverflow',
+      initialSlide :5,
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 200,
+        depth: 100,
+        modifier: 1,
+        slideShadows : true,
+      },
+      on: {
             slideChangeTransitionEnd: function(){
-              alert(this.activeIndex);//切换结束时，告诉我现在是第几个slide
+              // alert(this.activeIndex);//切换结束时，告诉我现在是第几个slide
             },
         }
     });
