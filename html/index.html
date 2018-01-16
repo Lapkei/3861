@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8" />
 	<title>Document</title>
+	<script type="text/javascript" src="/js/jquery-1.10.1.min.js" ></script>
 	<link rel="stylesheet" type="text/css" href="/statics/css/index.css"/>
 	<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
 	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -12,14 +13,15 @@
 	
 	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/css/swiper.min.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/js/swiper.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="/statics/css/swiper-4.1.0.min.css"/>	
+	<script type="text/javascript" src="/js/swiper-4.1.0.min.js" ></script>
+	<script type="text/javascript" src="/js/index.js" ></script>
 </head>
 <body>
 	<div class="header">
 		<div class="header-content">
 			<div class="logo-pic">
-				<img src="/images/images/logo.png" alt="" />
+				<img src="/images/logo.png" alt="" />
 			</div>
 			<!--LOGO-->
 			<div class="header-nav clear-fix">
@@ -37,11 +39,11 @@
 			<!--导航栏-->
 			<div class="nav-right-info">
 				<div style="height: 21px;">
-					<img src="/images/images/phone-icon.jpg"/>
+					<img src="/images/phone-icon.jpg"/>
 					<span>400-880-3861</span>
 				</div>
 				<div style="height: 43px;">
-					<img style="width: 100%;height: 100%;" src="/images/images/index-right-info.jpg"/>
+					<img style="width: 100%;height: 100%;" src="/images/index-right-info.jpg"/>
 				</div>
 				<div>
 					<div class="input-group input-group-sm">
@@ -53,6 +55,231 @@
 		</div>
 	</div>
 	<!--头部 logo 导航部分 End-->
+	<div class="index-content-wrap">
+		<div class="focus-block">
+			<div class="swiper-container">
+		        <div class="swiper-wrapper">
+		            <div class="swiper-slide"><img src="/images/main-focus-1_03.png"/></div>
+		            <div class="swiper-slide">Slide 2</div>
+		            <div class="swiper-slide">Slide 3</div>
+		            <div class="swiper-slide">Slide 4</div>
+		            <div class="swiper-slide">Slide 5</div>
+		            <div class="swiper-slide">Slide 6</div>
+		            <div class="swiper-slide">Slide 7</div>
+		            <div class="swiper-slide">Slide 8</div>
+		            <div class="swiper-slide">Slide 9</div>
+		            <div class="swiper-slide">Slide 10</div>
+		        </div>
+		        <!-- Add Pagination -->
+		        <div class="swiper-pagination"></div>
+		    </div>
+		</div>
+		<!--首页主聚焦图 END-->
+		<div id="news-consultation-block" class="news-consultation-block design-width-size block-style">
+			<div class="block-header clear-fix">
+				<div class="block-header-logo">
+					<img src="/images/news-logo.png" height="64" />
+				</div>
+				<!--模块头部左侧 LOGO END-->
+				<div class="block-header-tab-title">
+					<div class="tab-title-sons tab-title-sons-select"><div class="tab-title-sons-block"><div class="font-hover-3861">3861</div><div>企业新闻</div></div></div>
+					<div class="tab-title-sons"><div class="tab-title-sons-block"><div class="font-hover-3861">3861</div>企业视频</div></div>
+					<div class="tab-title-sons"><div class="tab-title-sons-block"><div class="font-hover-3861">3861</div>培训动态</div></div>
+					<div class="tab-title-sons"><div class="tab-title-sons-block"><div class="font-hover-3861">3861</div>更多</div></div>
+				</div>
+				<!--模块头部右侧 TAB头END-->
+			</div>
+			<!--模块 头部END-->
+			<div class="block-content clear-fix">
+				<div class="news-content-left pointer-style">
+					<div class="news-view-quickly-pic">
+						<img src="/images/newspic_10.png"/>
+					</div>
+					<div class="news-view-quickly-content">
+						<h1>【喜报】新店开张20家（1-12月累计新开367家，还有200+裝修ing，敬请期待）</h1>
+						<p>
+							3861只开盈利店，这里每一帧画面都是一个创富故事，每一个故事 都是人生传奇，每一次张灯结彩，都浸染着香港3861人的努力，与3861只开盈利店，这里每一帧画面都是一个创富故 <br />
+							3861只开盈利店，这里每一帧画面都是一个创富...
+						</p>
+					</div>
+					<div class="check-detail">
+						<img src="/images/check.png" class="pointer-style" width="84"/>						
+					</div>
+				</div>
+				<!--新闻资讯 左部 新闻简要 END-->
+				<div class="news-content-right">
+					<div class="tab-content">
+						<div class="news-shorty-block pointer-style clear-fix" > 
+							<div class="news-left-date">
+								<h2>20</h1>
+								<div>2018.1</div>
+							</div>
+							<div class="news-right-content">
+								<h1>【喜报】新店开张20家（1-12月累计新开367家，还有200+裝修ing，敬请期待）</h1>
+								<p>
+									过去两年，母婴用品实体店的数量仍在增加，但是增速放慢，分不同的城市级别来看，二线城市在2016  增幅较其他城市略快，低级别城
+									过去两年，母婴用品实体店的数量仍在增加，但是增速放慢，分不同的城市级别来看，二线城市在2016  增幅较其他城市略快，低...
+								</p>
+							</div>
+						</div>
+						
+						<div class="news-shorty-block pointer-style clear-fix" > 
+							<div class="news-left-date">
+								<h2>1</h1>
+								<div>2018.1</div>
+							</div>
+							<div class="news-right-content">
+								<h1>【喜报】新店开张20家（1-12月累计新开367家，还有200+裝修ing，敬请期待）</h1>
+								<p>
+									过去两年，母婴用品实体店的数量仍在增加，但是增速放慢，分不同的城市级别来看，二线城市在2016  增幅较其他城市略快，低级别城
+									过去两年，母婴用品实体店的数量仍在增加，但是增速放慢，分不同的城市级别来看，二线城市在2016  增幅较其他城市略快，低...
+								</p>
+							</div>
+						</div>
+						
+						<div class="news-shorty-block pointer-style clear-fix" > 
+							<div class="news-left-date">
+								<h2>3</h1>
+								<div>2018.10</div>
+							</div>
+							<div class="news-right-content">
+								<h1>【喜报】新店开张20家（1-12月累计新开367家，还有200+裝修ing，敬请期待）</h1>
+								<p>
+									过去两年，母婴用品实体店的数量仍在增加，但是增速放慢，分不同的城市级别来看，二线城市在2016  增幅较其他城市略快，低级别城
+									过去两年，母婴用品实体店的数量仍在增加，但是增速放慢，分不同的城市级别来看，二线城市在2016  增幅较其他城市略快，低...
+								</p>
+							</div>
+						</div>
+						
+						<div class="news-shorty-block pointer-style clear-fix" > 
+							<div class="news-left-date">
+								<h2>5</h1>
+								<div>2018.4</div>
+							</div>
+							<div class="news-right-content">
+								<h1>【喜报】新店开张20家（1-12月累计新开367家，还有200+裝修ing，敬请期待）</h1>
+								<p>
+									过去两年，母婴用品实体店的数量仍在增加，但是增速放慢，分不同的城市级别来看，二线城市在2016  增幅较其他城市略快，低级别城
+									过去两年，母婴用品实体店的数量仍在增加，但是增速放慢，分不同的城市级别来看，二线城市在2016  增幅较其他城市略快，低...
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--新闻资讯 右部  新闻推送END-->
+			</div>
+			<!--模块 内容END-->
+		</div>
+		<!--新闻资讯 模块 END-->
+		
+		<div id="Broadcasts-Columns" class="Broadcasts-Columns design-width-size block-style">
+			<div class="block-header clear-fix">
+				<div class="block-header-logo">
+					<img src="/images/broadcasts.png" height="64" />
+				</div>
+				<!--模块头部左侧 LOGO END-->
+				<div class="block-header-tab-title">
+					<div class="tab-title-sons tab-title-sons-select"><div class="tab-title-sons-block"><div class="font-hover-3861">3861</div><div>专题栏目</div></div></div>
+					<div class="tab-title-sons"><div class="tab-title-sons-block"><div class="font-hover-3861">3861</div>专家讲谈</div></div>
+					<div class="tab-title-sons"><div class="tab-title-sons-block"><div class="font-hover-3861">3861</div>行业动态</div></div>
+					<div class="tab-title-sons"><div class="tab-title-sons-block"><div class="font-hover-3861">3861</div>更多</div></div>
+				</div>
+				<!--模块头部右侧 TAB头END-->
+			</div>
+			<div class="block-content clear-fix">
+				<div class="Broadcasts-produck-block Broadcasts-label-bottom pointer-style">
+					<div class="Broadcasts-produck-pic">
+						<div class="blue-shadow"></div>
+						<img src="/images/demo-pics.png"/>
+					</div>	
+					<!-- 产品展示图片区 END-->
+					<div class="Broadcasts-produck-info-bottom">
+						<div class="Broadcasts-product-info-date">
+							2018/01/07
+						</div>
+						<h1>香港3861何以强大</h1>
+						<div class="Broadcasts-product-info-detail">
+							3861爱港爱国的情怀在活动现场产生共鸣，当日 有30多家投资商选择加盟香港3861。
+						</div>
+					</div>	
+					<!--产品展示 文字描述区 END-->
+				</div>
+				<!-- 实播栏目 产品展示 块   产品介绍信息在下 hover效果： 介绍信息 往上移动   END-->
+				<div class="Broadcasts-produck-block Broadcasts-label-top pointer-style">					
+					<div class="Broadcasts-produck-info-top">
+						<div class="Broadcasts-product-info-date">
+							2018/01/07
+						</div>
+						<h1>香港3861何以强大</h1>
+						<div class="Broadcasts-product-info-detail">
+							3861爱港爱国的情怀在活动现场产生共鸣，当日 有30多家投资商选择加盟香港3861。
+						</div>
+					</div>	
+					<div class="Broadcasts-produck-pic">
+						<div class="blue-shadow"></div>
+						<img src="/images/demo-pics.png"/>
+					</div>
+				</div>
+				<!--实播栏目 产品展示 块   产品介绍信息在上   hover效果： 图片 往上移动   END-->
+				<div class="Broadcasts-produck-block Broadcasts-label-bottom pointer-style">
+					<div class="Broadcasts-produck-pic">
+						<div class="blue-shadow"></div>
+						<img src="/images/demo-pics.png"/>
+					</div>	
+					<!-- 产品展示图片区 END-->
+					<div class="Broadcasts-produck-info-bottom">
+						<div class="Broadcasts-product-info-date">
+							2018/01/07
+						</div>
+						<h1>香港3861何以强大</h1>
+						<div class="Broadcasts-product-info-detail">
+							3861爱港爱国的情怀在活动现场产生共鸣，当日 有30多家投资商选择加盟香港3861。
+						</div>
+					</div>	
+					<!--产品展示 文字描述区 END-->
+				</div>
+				<!-- 实播栏目 产品展示 块   产品介绍信息在下 hover效果： 介绍信息 往上移动   END-->
+				<div class="Broadcasts-produck-block Broadcasts-label-top pointer-style">					
+					<div class="Broadcasts-produck-info-top">
+						<div class="Broadcasts-product-info-date">
+							2018/01/07
+						</div>
+						<h1>香港3861何以强大</h1>
+						<div class="Broadcasts-product-info-detail">
+							3861爱港爱国的情怀在活动现场产生共鸣，当日 有30多家投资商选择加盟香港3861。
+						</div>
+					</div>	
+					<div class="Broadcasts-produck-pic">
+						<div class="blue-shadow"></div>
+						<img src="/images/demo-pics.png"/>
+					</div>
+				</div>
+				<!--实播栏目 产品展示 块   产品介绍信息在上   hover效果： 图片 往上移动   END-->
+				<div class="Broadcasts-produck-block Broadcasts-label-bottom pointer-style">
+					<div class="Broadcasts-produck-pic">
+						<div class="blue-shadow"></div>
+						<img src="/images/demo-pics.png"/>
+					</div>	
+					<!-- 产品展示图片区 END-->
+					<div class="Broadcasts-produck-info-bottom">
+						<div class="Broadcasts-product-info-date">
+							2018/01/07
+						</div>
+						<h1>香港3861何以强大</h1>
+						<div class="Broadcasts-product-info-detail">
+							3861爱港爱国的情怀在活动现场产生共鸣，当日 有30多家投资商选择加盟香港3861。
+						</div>
+					</div>	
+					<!--产品展示 文字描述区 END-->
+				</div>
+				<!-- 实播栏目 产品展示 块   产品介绍信息在下 hover效果： 介绍信息 往上移动   END-->
+			</div>
+			<!--tAB 内容区 END-->
+		</div>
+		<!--实播栏目  模块 END-->
+		
+	</div>
+	<!--主页内容包裹区块 index-content-wrap END宽度 100%-->
 	
 </body>
 </html>

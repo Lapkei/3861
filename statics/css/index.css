@@ -8,6 +8,26 @@ html,body{
 }
 .design-width-size{
 	width:1000px;
+	margin:0 auto;
+}
+.block-style{	/*内容区各主模块的通用样式*/
+	margin-top: 58px;
+}
+.tab-content{
+	width: 100%;
+	/*height: 100%;*/
+}
+.blue-shadow{ /*蓝色遮罩层*/
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 500;
+	background-color: #13afff;
+	opacity: 0.6;
+}
+.pointer-style{	/* 查看详情 图片样式 */ 
+	cursor: pointer;
 }
 .clear-fix:after{
 	content: "";
@@ -23,6 +43,7 @@ html,body{
 	position: fixed;
 	top:0;
 	left: 0;
+	z-index: 1000;
 }
 .header-content{
 	width: 1000px;
@@ -80,3 +101,205 @@ html,body{
 .nav-right-info div{
 	width: 100%;
 }
+.index-content-wrap{
+	width: 100%;
+	margin-top: 126px;
+	background-color: #f7f8f8;
+}
+.focus-block,.swiper-container,.swiper-wrapper,.swiper-slide,.swiper-slide img{
+	width: 100%;
+}
+.news-consultation-block{
+	
+}
+.block-header-logo{
+	float: left;
+}
+.block-header-tab-title{
+	float: right;
+}
+.tab-title-sons{
+	float: left;
+	width: 76px;
+	height: 64px;	
+	color: #13afff;
+	font-size: 12px;
+	letter-spacing: 1px;	
+	position: relative;
+}
+.tab-title-sons:hover,.tab-title-sons-select{
+	background-color:#ff5791 ;
+	color: #FFFFFF;
+	cursor: pointer;
+	transition-duration: 0.2s;
+}
+.tab-title-sons:hover .font-hover-3861{
+	color: #FFFFFF;
+}
+.block-header-tab-title .font-hover-3861{
+	text-align: center;
+	color: #f7f8f8;
+	height: auto;
+}
+.tab-title-sons-block{
+	height: 34px;
+	width: 52px;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.block-content{
+	border-top: 6px solid #106da1;
+	/*height: 434px;*/
+}
+
+/* ******************************************新闻资讯 样式 */
+.news-content-left,.news-content-right{
+	float: left;
+}
+.news-content-left{
+	width: 348px;
+}
+.news-content-left:hover h1,.news-shorty-block:hover h1{
+	text-decoration: underline;
+}
+.news-view-quickly-pic{
+	width: 100%;
+	height: 200px;
+}
+.news-view-quickly-content h1{
+	font-size: 14px;
+	color:#595757;
+	font-weight: bold;
+}
+.news-view-quickly-content p{
+	color: #898989;
+	font-size: 12px;	
+}
+.news-shorty-block{
+	height: 90px;
+	overflow: hidden;
+	margin:13px 0;
+}
+.news-content-right{
+	width: 634px;
+	margin-left: 18px;
+}
+.news-content-right .tab-content .news-left-date{
+	width: 90px;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+.news-content-right .tab-content .news-left-date h2{
+	color: #13afff;	
+	font-weight: bold;
+}
+.news-content-right .tab-content .news-left-date div{
+	color: #898989;
+}
+.news-content-right .tab-content .news-right-content{
+	width: 544px;
+	padding-left: 10px;
+	height: 100%;
+	float: left;
+	border-left: 1px solid #b9b9b9;
+}
+.news-right-content h1{
+	color: #595757;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.news-right-content p{
+	color: #898989;
+	font-size: 12px;
+}
+/* *********************************新闻资讯 样式 END */
+
+/********************************实播栏目 模块样式  */
+#Broadcasts-Columns .block-content{
+	/*height: 360px;*/	
+}
+.Broadcasts-produck-block{
+	width: 199px;
+	height: 375px;
+	float: left;
+	margin-right: 1px;	
+	position: relative;
+}
+.Broadcasts-produck-pic{
+	width: 100%;
+	height: 275px;
+	position: relative;
+}
+.Broadcasts-produck-pic img{
+	width: 100%;
+	height: 100%;
+}
+/* 产品介绍信息标签在下 的 产品展示块样式 */
+.Broadcasts-produck-info-bottom,.Broadcasts-produck-info-top{	
+	background-color: #f8f8f8;
+	color: #13afff;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	padding: 8px;
+	overflow: hidden;
+}
+.Broadcasts-produck-info-bottom{
+	position: absolute;
+	bottom: 0;
+}
+.Broadcasts-label-bottom:hover .Broadcasts-produck-info-bottom{
+	bottom:275px;
+	background-color: #ff5791;
+	color: #f8f8f8;
+	transition-duration: 0.3s;
+}
+
+/* 产品介绍信息标签在上 的 产品展示块样式 */
+.Broadcasts-label-top .Broadcasts-produck-pic{
+	position: absolute;
+	bottom: 0;	
+	z-index: 100;
+}
+.Broadcasts-label-top .Broadcasts-produck-info-top{
+	position: absolute;
+	top: 0;
+	z-index: 200;
+}
+.Broadcasts-label-top:hover .Broadcasts-produck-pic{
+	bottom: 100px;
+	transition-duration: 0.35s
+}
+.Broadcasts-label-top:hover .Broadcasts-produck-info-top{
+	background-color: #ff5791;
+	color: #f8f8f8;
+	transition-duration: 0.3s;
+}
+
+/*遮罩层取消*/
+.Broadcasts-produck-block:hover .Broadcasts-produck-pic .blue-shadow{
+	opacity: 0;
+	transition-duration: 0.35s;
+	z-index: -1;
+}
+.Broadcasts-produck-info-bottom .Broadcasts-product-info-date{
+	font-size: 12px;
+}
+.Broadcasts-produck-info-bottom h1,.Broadcasts-produck-info-top h1{
+	font-size: 14px;
+	font-weight: bold;
+	margin:0;
+}
+.Broadcasts-produck-info-bottom .Broadcasts-product-info-detail,.Broadcasts-produck-info-top .Broadcasts-product-info-detail{
+	font-size: 12px;
+}
+
+/* **********************************实播栏目 模块样式 END*/
+
