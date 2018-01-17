@@ -16,7 +16,10 @@
 	<link rel="stylesheet" type="text/css" href="/statics/css/swiper-4.1.0.min.css"/>	
 	<link rel="stylesheet" href="/statics/css/questionnaire.css" />
 	<script type="text/javascript" src="/js/swiper-4.1.0.min.js" ></script>
+	<script type="text/javascript" src="/js/common.js"></script>
 	<script type="text/javascript" src="/js/questionnaire.js" ></script>
+	<script type="text/javascript" src="/js/addSideTools.js"></script>
+	
 </head>
 <body>
 	<div class="header">
@@ -27,7 +30,7 @@
 			<!--LOGO-->
 			<div class="header-nav clear-fix">
 				<div class="nav-sons">
-					<span><a href="">首页</a></span>					
+					<span><a href="index.html">首页</a></span>					
 				</div>
 				<div class="nav-sons">
 					<span>关于我们<span>
@@ -154,15 +157,7 @@
 		</div>
 	</div>
 	<!--头部 logo 导航部分 End-->
-	
-	<div id="side-tools-bar">
-		<div><img src="/images/icons_01.jpg" alt="" /></div>
-		<div><img src="/images/icons_02.jpg" alt="" /></div>
-		<div><img src="/images/icons_03.jpg" alt="" /></div>
-		<div><img src="/images/icons_04.jpg" alt="" /></div>
-		<div><img src="/images/icons_05.jpg" alt="" onclick="backToTop()" /></div>
-	</div>
-	<!--侧边工具栏-->
+
 	
 	<div class="index-content-wrap">
 		<div class="questionnaire-title-pic">
@@ -346,10 +341,10 @@
 				<div class="row">
 					<div class="text-right define-width float-L" ><em>*</em>当地常住人口:</div>
 					<div class="float-L">
-						<input type="radio" class="radios" name="peoples" />10万-30万 
-						<input type="radio" class="radios" name="peoples"  />30万-50万 
-						<input type="radio" class="radios" name="peoples"  />50万-100万  
-						<input type="radio" class="radios" name="peoples"  />100万以上
+						<label for="" style="width: 130px;" ><input type="radio" class="radios" name="peoples" />10万-30万 </label>
+						<label for="" style="width: 130px;" ><input type="radio" class="radios" name="peoples"  />30万-50万 </label>
+						<label for="" style="width: 130px;" ><input type="radio" class="radios" name="peoples"  />50万-100万  </label>
+						<label for="" style="width: 130px;" ><input type="radio" class="radios" name="peoples"  />100万以上</label>
 					</div>					
 				</div>
 				<!--row End-->
@@ -357,10 +352,10 @@
 				<div class="row">
 					<div class="text-right define-width float-L" ><em>*</em>当地人均收入:</div>
 					<div class="float-L">
-						<input type="radio" class="radios" name="peoples" />2000-3000元
-						<input type="radio" class="radios" name="peoples"  />3000-4500元 
-						<input type="radio" class="radios" name="peoples"  />4500-6000元  
-						<input type="radio" class="radios" name="peoples"  />6000元以上
+						<label for="" style="width: 130px;" ><input type="radio" class="radios" name="peoples" />2000-3000元</label>
+						<label for="" style="width: 130px;" ><input type="radio" class="radios" name="peoples"  />3000-4500元 </label>
+						<label for="" style="width: 130px;" ><input type="radio" class="radios" name="peoples"  />4500-6000元  </label>
+						<label for="" style="width: 130px;" ><input type="radio" class="radios" name="peoples"  />6000元以上</label>
 					</div>					
 				</div>
 				<!--row End-->
@@ -368,10 +363,10 @@
 				<div class="row">
 					<div class="text-right define-width float-L" ><em>*</em>经营性质:</div>
 					<div class="float-L">
-						<input type="radio" class="radios" name="peoples" />投资经营
-						<input type="radio" class="radios" name="peoples"  />合伙经营 
-						<input type="radio" class="radios" name="peoples"  />本人经营  
-						<input type="radio" class="radios" name="peoples"  />联营代理
+						<label for="" style="width: 130px;" ><input type="radio" class="radios" name="peoples" />投资经营</label>
+						<label for="" style="width: 130px;" ><input type="radio" class="radios" name="peoples"  />合伙经营 </label>
+						<label for="" style="width: 130px;" ><input type="radio" class="radios" name="peoples"  />本人经营  </label>
+						<label for="" style="width: 130px;" ><input type="radio" class="radios" name="peoples"  />联营代理</label>
 					</div>					
 				</div>
 				<!--row End-->
@@ -399,21 +394,123 @@
 				<div class="row">
 					<div class="text-right define-width float-L" ><em>*</em>投资商圈区域:</div>
 					<div class="float-L">
-						<input type="" name="" id="" value="" />省
-						<input type="" name="" id="" value="" />市
-						<input type="" name="" id="" value="" />区/县
+						<input type="text" name="" id="" value="" />省
+						<input type="text" name="" id="" value="" />市
+						<input type="text" name="" id="" value="" />区/县
 					</div>
 				</div>
 				<!--row End-->	
+				
 				<div class="row">
 					<div class="text-right define-width float-L" >&nbsp</div>
 					<div class="float-L">
 						1 商圈类型:
-						<input type="radio" class="radios" name="peoples" />商业区
-						<input type="radio" class="radios" name="peoples" />社区
-						<input type="radio" class="radios" name="peoples" />商业住宅综合区
+						<label for="" style="width: 124px;" ><input type="radio" class="radios" name="peoples" />商业区</label>
+						<label for="" style="width: 124px;" ><input type="radio" class="radios" name="peoples" />社区</label>
+						<label for="" style="width: 140px;" ><input type="radio" class="radios" name="peoples" />商业住宅综合区</label>
 					</div>
 				</div>
+				<!--row End-->	
+				
+				<div class="row">
+					<div class="text-right define-width float-L" >&nbsp</div>
+					<div class="float-L">
+						2 主要机构:
+						<label for="" style="width: 124px;" ><input type="checkbox" class="radios" name="peoples" />商业步行街</label>
+						<label for="" style="width: 124px;" ><input type="checkbox" class="radios" name="peoples" />购物广场</label>
+						<label for="" style="width: 124px;" ><input type="checkbox" class="radios" name="peoples" />大学</label>
+					</div>
+				</div>
+				<!--row End-->
+				
+				<div class="row">
+					<div class="text-right define-width float-L" >&nbsp</div>
+					<div class="float-L">
+						<div class="float-L" style="width: 76px;height: 100%;">&nbsp</div>
+						<label for="" style="width: 124px;" ><input type="checkbox" class="radios" name="peoples" />大型商场</label>
+						<label for="" style="width: 124px;" ><input type="checkbox" class="radios" name="peoples" />百货超市</label>
+						<label for="" style="width: 124px;" ><input type="checkbox" class="radios" name="peoples" />其他</label>
+					</div>
+				</div>
+				<!--row End-->
+				
+				<div class="row">
+					<div class="text-right define-width float-L" ><em>*</em>拟投资商圈分析:</div>
+					<div class="float-L">
+						3人群结构:
+						<label for="" style="width: 124px;" ><input type="radio" class="radios" name="peoples" />公务员为主</label>
+						<label for="" style="width: 124px;" ><input type="radio" class="radios" name="peoples" />学生为主</label>
+						<label for="" style="width: 124px;" ><input type="radio" class="radios" name="peoples" />白领为主</label>
+					</div>
+				</div>
+				<!--row End-->
+				
+				<div class="row">
+					<div class="text-right define-width float-L" >&nbsp</div>
+					<div class="float-L">
+						<div class="float-L" style="width: 72px;height: 100%;">&nbsp</div>
+						<label for="" style="width: 124px;" ><input type="radio" class="radios" name="peoples" />商人为主</label>
+						<label for="" style="width: 124px;" ><input type="radio" class="radios" name="peoples" />流动人口为主</label>
+					</div>
+				</div>
+				<!--row End-->
+				
+				<div class="row">
+					<div class="text-right define-width float-L" >&nbsp</div>
+					<div class="float-L">
+					4交通情况:
+						<label for="" style="width: 124px;" ><input type="radio" class="radios" name="peoples" />便利</label>
+						<label for="" style="width: 124px;" ><input type="radio" class="radios" name="peoples" />一般</label>
+						<label for="" style="width: 124px;" ><input type="radio" class="radios" name="peoples" />偏僻</label>
+					</div>
+				</div>
+				<!--row End-->
+				
+				<div class="row">
+					<div class="text-right define-width float-L" >&nbsp</div>
+					<div class="float-L">
+						5人口情况:
+						<label for="" style="width: 124px;" ><input type="radio" class="radios" name="peoples" />密集</label>
+						<label for="" style="width: 124px;" ><input type="radio" class="radios" name="peoples" />一般</label>
+						<label for="" style="width: 124px;" ><input type="radio" class="radios" name="peoples" />稀疏</label>
+					</div>
+				</div>
+				<!--row End-->
+				
+				<div class="row">
+					<div class="text-right define-width float-L" >&nbsp</div>
+					<div class="float-L">
+						6补充:
+						<input type="text" style="width: 500px;" />
+					</div>
+				</div>
+				<!--row End-->
+				
+				<div class="row">
+					<div class="text-right define-width float-L" >合作意向及建议:</div>
+					<div class="float-L">
+						&nbsp<textarea name="" rows="" cols="" style="width: 500px;height: 100px;"></textarea>
+					</div>
+				</div>
+				<!--row End-->
+				
+				<div class="row">
+					<div class="text-right define-width float-L" >备注:</div>
+					<div class="float-L">
+						&nbsp<textarea name="" rows="" cols="" style="width: 500px;height: 100px;"></textarea>
+					</div>
+				</div>
+				<!--row End-->
+				
+				<div class="row" style="text-align: center;font-size: 12px;color: #2d2f30;">
+					以上所填资料只有管理员才能看到！请放心填写！
+				</div>
+				
+				<div class="row form-btn-group">
+					<img src="/images/submit.png"  alt="" />
+					<img src="/images/reset.png" onclick="resetInput()" alt="" />
+				</div>
+				
 			</div>
 		</div>
 			

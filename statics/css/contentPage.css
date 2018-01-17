@@ -1,0 +1,117 @@
+.contentPageBlock{
+	position: relative;
+	min-height: 1250px;
+	margin-top: 52px;
+}
+.side-nav-bar{
+	position: absolute;
+	left: 0;
+	width: 234px;
+}
+
+.aboutus-content-block{
+	border: 1px solid #2d2f30;
+	padding: 20px 32px 20px 20px;
+	margin-top: -2px;
+}
+
+.aboutus-content-block li{
+	list-style: none;
+	width: 180px;
+	height: 42px;
+	text-indent: 20px;
+	line-height: 42px;
+	border-radius: 0px 16px;
+	background-color: #dcdddd;	
+	margin: 6px 0;
+	cursor: pointer;
+	transition-duration: 0.5s;
+}
+.aboutus-content-block li a{
+	color: #595757;
+	list-style-type: disc;
+	transition-duration: 0.5s;
+}
+.aboutus-content-block li a:hover{
+	text-decoration: none;
+}
+.aboutus-content-block li:hover{
+	background-color: #f51865;
+}
+.aboutus-content-block li:hover a{
+	color: #FFFFFF;
+}
+.aboutus-content-block li:hover .disc-dot{
+	color: #ff8ab3;
+}
+.disc-dot{
+	font-size: 34px;
+	margin-right: 4px;
+	color: #c9caca;
+}
+.aboutus-content-block li,.aboutus-content-block li a,.aboutus-content-block li .disc-dot{
+	vertical-align: middle;
+}
+
+.aboutus-content-block ul .aboutus-nav-li-select a{
+	text-decoration: none;
+}
+.aboutus-content-block ul .aboutus-nav-li-select{
+	background-color: #f51865;
+}
+.aboutus-content-block ul .aboutus-nav-li-select a{
+	color: #FFFFFF;
+}
+.aboutus-content-block ul .aboutus-nav-li-select .disc-dot{
+	color: #ff8ab3;
+}
+
+.side-nav-son{
+	
+}
+.sdnv-blue-title{
+	width: 100%;
+	height: 42px;
+	line-height: 42px;
+	padding-left: 10px;
+	color: #FFF;
+	font-size: 20px;
+	background-color: #13afff;
+}
+.sdnv-grey-content{
+	width: 100%;
+	background-color: #efefef;
+	padding: 18px 12px;
+	
+}
+.sdnv-grey-content li{
+	list-style-type: none;
+	border-bottom: 1px solid #898989;
+	cursor: pointer;
+}
+.sdnv-grey-content li:hover em{
+	text-decoration: underline;
+}
+.sdnv-grey-content h2{
+	color: #595757;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: bold;
+	height: auto;
+	list-style-type:circle;
+}
+.sdnv-grey-content h2 em{
+	font-style: normal;
+}
+.sdnv-grey-content p{
+	padding-left: 10px;
+	color: #898989;
+	font-size: 12px;
+}
+.sdnv-disc-dot{
+	font-size: 16px;
+	margin-right: 4px;
+}
+.sdnv-grey-content li,.sdnv-grey-content h2,.sdnv-grey-content .sdnv-disc-dot{
+	vertical-align: middle;
+}

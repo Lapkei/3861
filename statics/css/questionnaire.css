@@ -52,7 +52,7 @@
 	font-style: normal;
 }
 .join-form-block .row{
-	margin:8px 0;
+	margin:10px 0;
 }
 .define-width{
 	width: 165px;
@@ -62,4 +62,17 @@
 }
 .join-form-block .radios{
 	margin-left: 20px;
+}
+.float-L,.float-L input{
+	vertical-align: top;
+}
+label{
+	font-weight: normal;
+}
+.form-btn-group{
+	text-align: center;
+}
+.form-btn-group img{
+	margin: 0 9px;
+	cursor: pointer;
 }

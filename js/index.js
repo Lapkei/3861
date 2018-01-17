@@ -5,10 +5,6 @@ $(function(){
 	initTabCheck();// 加载tab切换效果
 });
 
-//回到顶部
-function backToTop(){
-	document.documentElement.scrollTop = document.body.scrollTop =0;
-}
 
 // 加载tab切换效果
 function initTabCheck(){
