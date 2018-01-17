@@ -58,6 +58,12 @@ html,body{
 	margin:0 auto;
 	padding-top: 20px ;
 }
+.search-group,.search-group img,.search-group input{
+	vertical-align: top;
+}
+.search-group{
+	margin-top: 6px;
+}
 .header-nav{
 	width: 782px;
 	margin: 0 auto;
@@ -65,6 +71,20 @@ html,body{
     bottom: 0;
     left: 0;
     right: 0;
+}
+.phone-animate{
+	color:#0a006a;
+	font-weight: bold;
+}
+.font-size-18{
+	font-size: 18px;
+	transition-duration: 0.5s;
+}
+.tab-content-card{
+	display: none;
+}
+.tab-card-show{
+	display: block;
 }
 .nav-sons{
 	width: 78px;
@@ -77,6 +97,46 @@ html,body{
 	letter-spacing: 2px;
 	cursor: pointer;
 	font-weight: 800;
+}
+.nav-sons ul{
+	border:0px solid #FFFFFF ;
+}
+.nav-sons ul li{
+	list-style: none;
+	width: 100%;
+	height: 0;
+	position: relative;
+	overflow: hidden;
+}
+.nav-sons-list-main{
+	overflow: hidden;
+}
+.nav-sons:hover li{
+	height: 32px;
+	transition-duration: 0.2s;
+}
+.nav-sons:hover ul{
+	border-width: 2px;
+}
+.nav-list-font{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 700;
+	top: 0;
+	left: 0;
+	text-align: center;
+	line-height: 40px;
+}
+.white-shadow{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	opacity: 0.4;
+	z-index: 600;
+	top: 0;
+	left: 0;
 }
 .nav-sons:hover{
 	transition-duration: 0.1s;
@@ -158,6 +218,29 @@ html,body{
 	border-top: 6px solid #106da1;
 	/*height: 434px;*/
 }
+
+/******************************************* 侧边工具栏 样式*/
+#side-tools-bar{
+	width: 52px;
+	position: fixed;
+	z-index: 1000;
+	left: 0;
+	top: 30%;
+}
+#side-tools-bar div{
+	width: 100%;
+	height: 52px;
+	margin-bottom: 2px;
+	border: 2px solid #316889;
+	cursor: pointer;
+}
+#side-tools-bar div img{
+	width: 100%;
+	height: 100%;
+}
+/******************************************* 侧边工具栏 样式END*/
+
+
 
 /* ******************************************新闻资讯 样式 */
 .news-content-left,.news-content-right{
@@ -421,14 +504,16 @@ html,body{
 	width: 100%;
 	background-color: #e4e4e5;
 	padding-top: 24px;
+	padding-bottom: 40px;
 }
 .footer .footer-content{
 	width: 1000px;
 	margin: 0 auto;
 }
 .footer .top-block{
-	padding-bottom: 25px;
-	border-bottom: 2px solid #b9b9b9;
+	padding-bottom: 24px;
+	margin-bottom: 14px;
+	border-bottom: 1px solid #b9b9b9;
 }
 .footer .left-part{
 	float: left;
@@ -440,6 +525,7 @@ html,body{
 	list-style: none;
 }
 .footer .left-part ul li a{
+	font-size: 12px;
 	color: #0a006a;
 }
 .footer .left-part ul{
@@ -457,4 +543,40 @@ html,body{
 	color: #4b43a0;
 	margin-top: 0;
 	font-weight:normal ;
+}
+.footer .right-part h2{
+	font-size: 12px;
+	color: #0a006a;
+	margin-top: 0;
+}
+.footer .right-part input,.footer .right-part textarea{
+	border: 2px solid #0a006a;
+}
+.footer .float-L{
+	float: left;
+}
+.footer .bottom-block p{
+	margin: 0 0 5px;
+	font-size: 12px;
+	color: #0a006a;
+	
+}
+.footer .bottom-block li,.footer .bottom-block li a{
+	list-style: none;
+	float: left;
+	font-size: 12px;
+	color: #0a006a;
+}
+.footer .bottom-block li a{
+	margin-right: 12px;
+	font-weight: bold;
+}
+.float-R{
+	float: right;
+}
+.copyright{
+	text-align: center;
+	font-size: 12px;
+	color: #595757;
+	margin-top: 20px;
 }
