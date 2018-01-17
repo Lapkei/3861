@@ -1,0 +1,65 @@
+.questionnaire-title-pic,.questionnaire-title-pic img{
+	width: 100%;
+}
+.join-title{
+	color: #13afff;
+	font-size: 16px;
+	border-left: 4px solid #13afff;
+	padding-left: 6px;
+	padding-bottom: 6px;
+}
+
+.grey-underline{
+	border-bottom: 1px solid #bababa;
+}
+.join-detail,.join-form-block{
+	padding-left: 140px;
+	padding-right: 140px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border: 1px solid #19b1ff;
+	margin-top: 22px;
+	background-color: #ebf4f8;
+}
+.join-detail h1{
+	font-size: 24px;
+	color: #707070;
+	margin-top: 24px;
+}
+.join-detail li{
+	color: #898989;
+	font-size: 14px;
+}
+.join-detail p{
+	color: #898989;
+	font-size: 18px;
+	font-weight: bold;
+}
+.join-come-on{
+	text-align: center;
+	margin-top: 24px;
+	margin-bottom: 12px;
+}
+.text-right{
+	text-align: right;
+}
+.single-cols .col-sm-6{
+	margin: 0;
+	padding: 0 2px;
+}
+.join-form-block em{
+	color: #c24c6a;
+	font-style: normal;
+}
+.join-form-block .row{
+	margin:8px 0;
+}
+.define-width{
+	width: 165px;
+}
+.join-form-block .float-L{
+	float: left;
+}
+.join-form-block .radios{
+	margin-left: 20px;
+}
