@@ -46,6 +46,61 @@ html,body{
 	left: 0;
 	z-index: 1000;
 }
+
+
+
+.header .header-middle-big-logo{
+	width: 162px;
+	height: 162px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -36px;
+	margin:0 auto;
+}
+.header-left-part{
+	width: 410px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 20px;
+	
+}
+.header-right-part{
+	width: 410px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.service-for-mobaby{
+	width: 170px;
+	height: 68px;
+	position: absolute;
+	right: 14px;
+	top: 22px;
+}
+.service-for-mobaby img{
+	width: 100%;
+	height: 100%;
+}
+.nav-right-info{
+	position: absolute;
+	left: 0;
+	left: 4px;
+}
+.header-search-block{
+	position: absolute;
+	right: 30px;
+	top: 50px;
+}
+
+
+.header .header-middle-big-logo img{
+	width: 100%;
+	height: 100%;
+}
+
 .header-content{
 	width: 1000px;
 	height: 100%;
@@ -72,9 +127,18 @@ html,body{
     left: 0;
     right: 0;
 }
+.phone-animate-block img{
+	float: left;
+}
 .phone-animate{
 	color:#0a006a;
 	font-weight: bold;
+}
+.phone-animate span,.phone-animate-block .phone-animate div{
+	float: left;
+	width: 10px;
+	height: 20px;
+	line-height: 20px;
 }
 .font-size-18{
 	font-size: 18px;
@@ -98,8 +162,11 @@ html,body{
 	cursor: pointer;
 	font-weight: 800;
 }
+.nav-sons span a{
+	color:#0a006a;
+}
 .nav-sons ul{
-	border:0px solid #FFFFFF ;
+	border:0px solid #ff5791 ;
 }
 .nav-sons ul li{
 	list-style: none;
@@ -116,7 +183,7 @@ html,body{
 	transition-duration: 0.2s;
 }
 .nav-sons:hover ul{
-	border-width: 2px;
+	border-width: 1px;
 }
 .nav-list-font{
 	width: 100%;
@@ -132,19 +199,23 @@ html,body{
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background-color: #fff;
-	opacity: 0.4;
+	background-color: #ff5791;
+	opacity: 0.8;
 	z-index: 600;
 	top: 0;
 	left: 0;
 }
-.nav-sons:hover{
-	transition-duration: 0.1s;
-	color: #f51865;
+.nav-sons li a{
+	color: #FFFFFF;
 }
-.nav-sons:hover span{
-	border-bottom-width: 1px;
-	transition-duration: 0.35s;
+.nav-sons:hover a{
+	transition-duration: 0.1s;
+	/*color: #f51865;*/
+	text-decoration: none;
+}
+.nav-sons li:hover a{
+	color: #0a006a;
+	transition-duration: 0.5s;
 }
 .nav-sons span{
 	padding-bottom: 2px;
