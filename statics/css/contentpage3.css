@@ -1,0 +1,47 @@
+.article-read-block{	
+	padding: 52px 0 80px;
+}
+.article-read-block h1{
+	color: #595757;
+	font-size: 18px;
+	text-align: center;
+}
+.article-read-block h2{
+	color: #c9caca;
+	font-size: 12px;
+	text-align: center;
+}
+.article-read-block em,.article-read-block a{
+	color: #a9a9a9;
+	font-style: normal;
+	margin-right: 14px;
+	text-decoration: none;
+}
+.article-main-body{
+	margin-top: 34px;
+	border-bottom: 1px solid #bababa;
+	padding-bottom: 40px;
+}
+.article-main-body{
+	color: #898989;	
+}
+.article-main-body p{
+	text-indent: 2em;
+	letter-spacing: 1px;
+}
+.article-main-body p img{
+	width: 100%;
+	margin-left: -2em;
+}
+.article-footer-nav h1{
+	font-size: 16px;
+	color: #595757;
+	text-align: left;
+	font-weight: bold;
+}
+.article-footer-nav .prev-next-article{
+	text-align: left;
+}
+.article-footer-nav .prev-next-article,.article-footer-nav .prev-next-article a{
+	color: #595757;	
+}
