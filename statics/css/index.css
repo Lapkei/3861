@@ -298,17 +298,117 @@ html,body{
 	left: 0;
 	top: 30%;
 }
-#side-tools-bar div{
+#side-tools-bar .side-tools-bar-son{
 	width: 100%;
 	height: 52px;
+	text-align: center;
+	line-height: 52px;
 	margin-bottom: 2px;
+	background-color: #FFF;
 	border: 2px solid #316889;
 	cursor: pointer;
+	padding-top: 2px;
+	position: relative;
 }
-#side-tools-bar div img{
-	width: 100%;
+.side-tools-bar-select{
+	background-color: #13afff!important;
+	border-color: #13afff!important;
+	
+}
+.side-tools-bar-select .glyphicon{
+	color: #FFFFFF!important;
+}
+#side-tools-bar .side-tools-bar-son:hover{
+	background-color: #13afff;
+	border-color: #13afff;
+}
+#side-tools-bar .side-tools-bar-son:hover .glyphicon{
+	color: #FFFFFF;
+}
+#side-tools-bar  .side-tools-bar-son:hover .side-tools-detail{
+	display: block!important;
+}
+#side-tools-bar .side-tools-detail{
+	border: 1px solid #32aef9;
+	display: none;
+}
+
+#side-tools-bar .side-tools-wechat{
+	width: auto;
+	height: auto;
+	padding: 20px 14px;
+	position: absolute;
+    top: 0px;
+    left: 51px;
+}
+#side-tools-bar .side-tools-phone{
+	width: auto;
+	height: auto;
+	padding: 20px 14px 10px ;
+	position: absolute;
+    top: 0px;
+    left: 51px;
+}
+#side-tools-bar .side-tools-QQ{
+	width: 208px;
+	position: absolute;
+    top: -2px;
+    left: 51px;
+	
+}
+.qq-ringring{
+	border-color: #13afff;
+	border-style: solid;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	padding: 12px 34px;
+}
+.qq-ringring-block{
+	height: 34px;
+	line-height: 34px;
+	margin-bottom: 8px;
+}
+.qq-ringring .qq-ringring-block img{
+	margin-right: 4px;
+}
+#side-tools-bar .side-tools-QQ .qq-ringring img{
+	width: 34px;
 	height: 100%;
 }
+#side-tools-bar .side-tools-QQ img{
+	width: 100%;
+	
+}
+#side-tools-bar .side-tools-detail .background-shadow{
+	background-color: #FFFFFF;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+#side-tools-bar .side-tools-detail h1{
+	color: #13afff;
+	font-size: 20px;
+	width: 160px;
+	margin: 0;
+}
+#side-tools-bar .side-tools-wechat img{
+	width: 186px;
+	height: 186px;
+} 
+.glyphicon{
+	color: #316889;
+	font-size: 34px;
+	margin-top: 4px;
+}
+#side-tools-bar .side-tools-detail-show{
+	display: block;
+}
+
 /******************************************* 侧边工具栏 样式END*/
 
 
