@@ -697,6 +697,31 @@ html,body{
 .join-us img{
 	cursor: pointer;
 }
+.join-us-pic-block{
+	float: left;
+	margin-right: 2px;
+	overflow: hidden;
+	position: relative;
+}
+.join-us-pic-block img{
+	width:100%;
+	height: 100%;
+	transition-duration: 0.4s;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.join-us-pic-block img:hover{
+	width: 120%;
+	height: 120%;
+	left: -10%;
+}
+.hover-bottom-move img:hover{
+	width: 120%;
+	height: 120%;
+	left: -10%;
+	top: -20%;
+}
 /*******************************加盟合作 END*/
 
 /* *****************************尾部*/
