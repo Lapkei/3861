@@ -27,6 +27,9 @@ html,body{
 	background-color: #13afff;
 	opacity: 0.6;
 }
+.block-header{
+	margin-bottom: 4px;
+}
 .pointer-style{	/* 查看详情 图片样式 */ 
 	cursor: pointer;
 }
@@ -46,8 +49,19 @@ html,body{
 	left: 0;
 	z-index: 1000;
 }
-
-
+#main-focus-block .swiper-pagination-bullet{
+	width: 14px;
+	height: 14px;
+}
+#main-focus-block .swiper-pagination-bullet-active{
+	background-color: #eeeeee;
+	border-color: #0b76c3;
+	width: 24px;
+	height: 24px;
+}
+#main-focus-swiper-pagination,#main-focus-swiper-pagination span{
+	vertical-align: middle;
+}
 
 .header .header-middle-big-logo{
 	width: 162px;
@@ -242,6 +256,7 @@ html,body{
 .focus-block,.swiper-container,.swiper-wrapper,.swiper-slide,.swiper-slide img{
 	width: 100%;
 }
+
 .news-consultation-block{
 	
 }
@@ -261,6 +276,7 @@ html,body{
 	position: relative;
 }
 .tab-title-sons:hover,.tab-title-sons-select{
+	font-weight: bold;
 	background-color:#ff5791 ;
 	color: #FFFFFF;
 	cursor: pointer;
@@ -453,6 +469,7 @@ html,body{
 }
 .news-content-right .tab-content .news-left-date h2{
 	color: #13afff;	
+	font-size: 34px;
 	font-weight: bold;
 }
 .news-content-right .tab-content .news-left-date div{
@@ -500,7 +517,7 @@ html,body{
 /* 产品介绍信息标签在下 的 产品展示块样式 */
 .Broadcasts-produck-info-bottom,.Broadcasts-produck-info-top{	
 	background-color: #f8f8f8;
-	color: #13afff;
+	color: #898989;
 	width: 100%;
 	height: 100px;
 	text-align: center;
@@ -511,12 +528,12 @@ html,body{
 	position: absolute;
 	bottom: 0;
 }
-.Broadcasts-label-bottom:hover .Broadcasts-produck-info-bottom{
+/*.Broadcasts-label-bottom:hover .Broadcasts-produck-info-bottom{
 	bottom:275px;
 	background-color: #ff5791;
 	color: #f8f8f8;
 	transition-duration: 0.3s;
-}
+}*/
 
 /* 产品介绍信息标签在上 的 产品展示块样式 */
 .Broadcasts-label-top .Broadcasts-produck-pic{
@@ -529,7 +546,7 @@ html,body{
 	top: 0;
 	z-index: 200;
 }
-.Broadcasts-label-top:hover .Broadcasts-produck-pic{
+/*.Broadcasts-label-top:hover .Broadcasts-produck-pic{
 	bottom: 100px;
 	transition-duration: 0.35s
 }
@@ -537,14 +554,23 @@ html,body{
 	background-color: #ff5791;
 	color: #f8f8f8;
 	transition-duration: 0.3s;
-}
+}*/
 
 /*遮罩层取消*/
-.Broadcasts-produck-block:hover .Broadcasts-produck-pic .blue-shadow{
+.Broadcasts-produck-block:hover .Broadcasts-produck-pic .blue-shadow,.Broadcasts-produck-block-select .Broadcasts-produck-pic .blue-shadow{
 	opacity: 0;
 	transition-duration: 0.35s;
 	z-index: -1;
 }
+.Broadcasts-produck-block-select .Broadcasts-produck-info-top,.Broadcasts-produck-block-select .Broadcasts-produck-info-bottom{
+	background-color: #ff5791;
+	color: #f8f8f8;
+	transition-duration: 0.3s;
+}
+.Broadcasts-produck-block-select .Broadcasts-produck-info-bottom h1,.Broadcasts-produck-block-select .Broadcasts-produck-info-top h1{
+	color: #FFFFFF;
+}
+
 .Broadcasts-produck-info-bottom .Broadcasts-product-info-date{
 	font-size: 12px;
 }
@@ -552,6 +578,7 @@ html,body{
 	font-size: 14px;
 	font-weight: bold;
 	margin:0;
+	color:#595757;
 }
 .Broadcasts-produck-info-bottom .Broadcasts-product-info-detail,.Broadcasts-produck-info-top .Broadcasts-product-info-detail{
 	font-size: 12px;
@@ -562,6 +589,8 @@ html,body{
 /* *********************************** 品牌形象 模块样式*/
 .brand-image-pics,.product-center-pics{
 	width: 100%;
+	border-top: 1px solid #0f87ff;
+    border-bottom: 1px solid #0f87ff;
 }
 .brand-image-pics img,.product-center-pics img{
 	width: 100%;

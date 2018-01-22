@@ -3,15 +3,24 @@ $(function(){
 	initBrandImageFocus();// 品牌形象 3D聚焦图 初始化
 	initPhoneAnimate(); // 顶部 电话号码 动画
 	initTabCheck();// 加载tab切换效果
+	initBroadcastsPic();// 实播栏目鼠标事件
 });
 
+// 实播栏目鼠标事件
+function initBroadcastsPic(){
+	$("#Broadcasts-Columns .tab-content-card .Broadcasts-produck-block").on("mouseenter",function(){
+		$("#Broadcasts-Columns .tab-content-card .Broadcasts-produck-block").removeClass("Broadcasts-produck-block-select");
+		$(this).toggleClass("Broadcasts-produck-block-select");
+	})
+}
 
 // 首页  主 聚焦图 初始化
 function initMainFocus(){
 	var swiper = new Swiper('#main-focus', {
-	    pagination: '.swiper-pagination',
-	    paginationClickable: true,
-	    spaceBetween: 30,
+	    pagination: {
+			el: '#main-focus-swiper-pagination',
+			clickable: true,
+		},
 	    autoplay:true
 	});
 }

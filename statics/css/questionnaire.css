@@ -1,6 +1,11 @@
 .questionnaire-title-pic,.questionnaire-title-pic img{
 	width: 100%;
 }
+.questionnaire-title-pic{
+	width: 100%;
+	border-top: 1px solid #0f87ff;
+    border-bottom: 1px solid #0f87ff;
+}
 .join-title{
 	color: #13afff;
 	font-size: 16px;
